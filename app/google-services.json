@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "978329285113",
+    "project_id": "helpbell-a9941",
+    "storage_bucket": "helpbell-a9941.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978329285113:android:f3b608f79c21caf6660d28",
+        "android_client_info": {
+          "package_name": "com.help.bell"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCATlAvNoNxjDztaZKU7lSCT7DUH_VlDhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
