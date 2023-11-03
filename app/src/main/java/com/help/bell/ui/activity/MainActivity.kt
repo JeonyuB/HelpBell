@@ -1,6 +1,11 @@
 package com.help.bell.ui.activity
 
+// 위치 정보 관련 모듈
+
 import android.content.Intent
+import android.location.Location
+import android.location.LocationListener
+import android.location.LocationManager
 import android.os.Bundle
 import android.view.MenuItem
 import android.view.View
@@ -11,6 +16,7 @@ import com.help.bell.databinding.ActivityMainBinding
 import com.help.bell.ui.fragment.BoardFragment
 import com.help.bell.ui.fragment.HomeFragment
 import com.help.bell.ui.fragment.ProfileFragment
+
 
 class MainActivity : AppCompatActivity(), NavigationBarView.OnItemSelectedListener, NavigationBarView.OnItemReselectedListener,
     View.OnClickListener {
@@ -65,4 +71,4 @@ class MainActivity : AppCompatActivity(), NavigationBarView.OnItemSelectedListen
             R.id.menu_profile -> supportFragmentManager.beginTransaction().replace(R.id.frame_main, ProfileFragment()).commit()
         }
     }
-}
+    }
